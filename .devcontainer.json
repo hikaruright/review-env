@@ -1,0 +1,16 @@
+{
+  "name": "Re:VIEW Environment",
+  "dockerfile": "Dockerfile",
+
+  "runArgs": [
+    "-u": "vscode"
+  ],
+
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+
+  "extentions":[
+    "atsushieno.language-review"
+  ]
+}
