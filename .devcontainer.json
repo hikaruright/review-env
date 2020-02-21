@@ -3,7 +3,7 @@
   "dockerFile": "Dockerfile",
 
   "runArgs": [
-    "-u", "vscode"
+    
   ],
 
   "settings": {

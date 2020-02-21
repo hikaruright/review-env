@@ -1,7 +1,7 @@
 FROM kauplan/review2.5
 
-RUN adduser vscode
+# RUN adduser vscode
 
-ENV HOME /home/vscode
+# ENV HOME /home/vscode
 
-USER vscode
+# USER vscode
