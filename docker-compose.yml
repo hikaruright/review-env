@@ -1,7 +1,7 @@
 version: '3'
 
 services: 
-    dev:
+    review:
         container_name: review
         image: kauplan/review2.5
         tty: true
