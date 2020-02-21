@@ -1,6 +1,8 @@
 {
   "name": "Re:VIEW Environment",
-  "dockerFile": "Dockerfile",
+  "dockerComposeFile": ["./docker-compose.yml"],
+  "service": "review-container",
+  "workspaceFolder": "/workspace/review",
 
   "runArgs": [
     
