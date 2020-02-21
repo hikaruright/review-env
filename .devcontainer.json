@@ -1,6 +1,6 @@
 {
   "name": "Re:VIEW Environment",
-  "dockerfile": "Dockerfile",
+  "dockerFile": "Dockerfile",
 
   "runArgs": [
     "-u", "vscode"
