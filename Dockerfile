@@ -1,5 +1,7 @@
 FROM kauplan/review2.5
 
-RUN mkdir /work
+RUN adduser vscode
 
-WORKDIR /work
+ENV HOME /home/vscode
+
+USER vscode
