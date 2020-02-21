@@ -2,16 +2,17 @@
   "name": "Re:VIEW Environment",
   "dockerComposeFile": "docker-compose.yml",
   "service": "review",
-  "workspaceFolder": "/workspace/review",
+  "workspaceFolder": "/workspace",
   "shutdownAction": "none",
-
+  "postCreateCommand": "docker --version",
+  
   "runArgs": [
     
   ],
 
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
+  "settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
 
   "extentions":[
     "atsushieno.language-review"
